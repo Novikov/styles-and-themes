@@ -40,4 +40,18 @@
         app:layout_constraintTop_toTopOf="parent"
         android:text="Style textAppearance"/>
 
+    <Button
+        android:id="@+id/button"
+        style="@style/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BackgroundTint" />
+
+    <Button
+        android:id="@+id/buttonTint"
+        style="@style/selectorButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BackgroundTint" />
+
 </LinearLayout>

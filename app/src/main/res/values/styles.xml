@@ -32,5 +32,13 @@
         <item name="android:text">custom</item>
     </style>
 
+    <style name="buttonStyle">
+        <item name="android:backgroundTint">#000</item>
+    </style>
+
+    <style name="selectorButtonStyle">
+        <item name="android:backgroundTint">@color/tint_selector</item>
+    </style>
+
 
 </resources>
