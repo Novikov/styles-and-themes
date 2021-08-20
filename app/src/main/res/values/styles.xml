@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultTextViewStyle">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ED6162</item>
+        <item name="android:text">Атрибуты TextView заданы через стиль</item>
+    </style>
+
+    <style name="SecondaryTextViewStyle" parent="DefaultTextViewStyle">
+        <item name="android:textColor">#6761ED</item>
+        <item name="android:text">Атрибуты TextView заданы через дочерний стиль</item>
+    </style>
+
+    <!--Неявное наследовани стиля
+        Его нельзя использовать когда нужно унаследоваться от темы. В этом случае ее нужно указывать через parent.
+    -->
+    <style name="SecondaryTextViewStyle.NewStyle">
+        <item name="android:textColor">#000</item>
+        <item name="android:text">Унаследованный через точку стиль</item>
+    </style>
+
+    <style name="StyleForTextAppearance">
+        <item name="android:textColor">#6AED61</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <style name="customStyle">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:text">custom</item>
+    </style>
+
+
+</resources>
