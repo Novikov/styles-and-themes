@@ -1,2 +1,3 @@
 rootProject.name = "styles"
-include ':app'
+include ':theme_overlay'
+include ':xlmns'
