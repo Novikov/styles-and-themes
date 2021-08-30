@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--xmlns нужны для того, чтобы заработали параметры виджетов
+    Это тоже самое что и импорты в java/kotlin
+    -->
+
     <!--tools:context позволяет подтягивать нужную тему-->
 
     <TextView
