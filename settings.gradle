@@ -1,3 +1,4 @@
 rootProject.name = "styles"
 include ':theme_overlay'
 include ':xlmns'
+include ':spinner'

@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/spinner" />
             <option value="$PROJECT_DIR$/theme_overlay" />
             <option value="$PROJECT_DIR$/xlmns" />
           </set>
