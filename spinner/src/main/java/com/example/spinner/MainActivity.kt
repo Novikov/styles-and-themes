@@ -1,10 +1,10 @@
 package com.example.spinner
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import androidx.appcompat.app.AppCompatActivity
 import com.example.spinner.adapters.HabrAdapter
 
 class MainActivity : AppCompatActivity() {
@@ -23,14 +23,18 @@ class MainActivity : AppCompatActivity() {
             R.array.planets_array_short,
             R.layout.new_first_item_droppdown
         )
+        // выше устанавливается выбранный элемент
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        // adapter.setDropDownViewResource(R.layout.new_first_item_droppdown) //установка view для элемента открытого спиннера. Если этого не сделать то будет выводиться layout  для выбранного элемента
+
         spinner.adapter = adapter
 
+        // установка hint
         spinner.adapter = HabrAdapter(
             adapter,
             R.layout.first_item,
-            R.layout.first_item_droppdown,
+//            R.layout.first_item_droppdown,
             this
         )
     }

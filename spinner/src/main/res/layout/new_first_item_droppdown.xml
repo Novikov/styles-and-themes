@@ -6,4 +6,4 @@
     android:layout_height="wrap_content"
     android:ellipsize="marquee"
     android:textAlignment="inherit"
-    android:drawableEnd="@drawable/ic_eye"/>
+    android:drawableEnd="@drawable/ic_spinner_flipped"/>
