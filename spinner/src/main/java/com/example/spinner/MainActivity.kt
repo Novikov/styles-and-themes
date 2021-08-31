@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val adapter = ArrayAdapter.createFromResource(
             this,
             R.array.planets_array_short,
-            android.R.layout.simple_spinner_item
+            R.layout.new_first_item_droppdown
         )
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         spinner.adapter = HabrAdapter(
             adapter,
             R.layout.first_item,
+            R.layout.first_item_droppdown,
             this
         )
     }
