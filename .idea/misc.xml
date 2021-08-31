@@ -5,8 +5,14 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19882246376811594" />
         <entry key="app/src/main/res/layout/activity_text_styles.xml" value="0.19882246376811594" />
+        <entry key="spinner/src/main/res/drawable/ic_spinner.xml" value="0.20208333333333334" />
         <entry key="spinner/src/main/res/drawable/pop_up_bcg.xml" value="0.259375" />
+        <entry key="spinner/src/main/res/drawable/pop_up_bcg_blue.xml" value="0.3536458333333333" />
+        <entry key="spinner/src/main/res/drawable/pop_up_bcg_green.xml" value="0.25729166666666664" />
+        <entry key="spinner/src/main/res/drawable/pop_up_bcg_yellow.xml" value="0.20208333333333334" />
         <entry key="spinner/src/main/res/layout/activity_main.xml" value="0.24322916666666666" />
+        <entry key="spinner/src/main/res/layout/first_item.xml" value="0.38753213367609257" />
+        <entry key="spinner/src/main/res/layout/item_country.xml" value="0.24114583333333334" />
         <entry key="theme_overlay/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
         <entry key="xlmns/src/main/res/layout/activity_main.xml" value="0.335" />
       </map>

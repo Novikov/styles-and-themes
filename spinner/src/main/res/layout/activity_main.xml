@@ -4,18 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_marginHorizontal="16dp">
 
     <androidx.appcompat.widget.AppCompatSpinner
-        android:id="@+id/my_spinner"
+        android:id="@+id/simple_spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="32dp"
+        android:popupBackground="@drawable/pop_up_bcg"
+        android:prompt="@string/app_name"
+        android:background="@drawable/pop_up_bcg_green"
+        android:spinnerMode="dropdown"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:spinnerMode="dropdown"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/simple_spinner_habr_adapter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/pop_up_bcg_yellow"
+        android:minHeight="50dp"
+        android:popupBackground="@drawable/pop_up_bcg"
         android:prompt="@string/app_name"
-        android:popupBackground="@drawable/pop_up_bcg"/>
+        android:spinnerMode="dropdown"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
