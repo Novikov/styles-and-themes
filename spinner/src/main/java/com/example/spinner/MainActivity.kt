@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         spinner.adapter = adapter
 
-        // установка hint
+        // установка hint и первого элемента в dropdown
         spinner.adapter = HabrAdapter(
             adapter,
             R.layout.first_item,
